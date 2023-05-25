@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* ----- Layout ------ */
+
+.container {
+    width: 100%;
+}
+
+
+.hero {
+    background-color: #6943FF;
+    padding: 1.25em; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.covert-number {
+    width: 120px;
+    height: 83px;
+    margin: 0.51em 0 0.43em;
+    background-color: #6943FF;
+    color: #ffffff;
+    
+    border: 3px solid #B295FF;
+    border-radius: 6px;
+    
+    font-size: 3.65rem;
+    font-weight: bold;
+    
+   text-align: center;
+}
+
+   /* ------ Removing Arrows from convert-number ↓ ------- */
+
+/* Chrome, Safari, Edge, Opera */
+.covert-number::-webkit-outer-spin-button,
+.covert-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.covert-number[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/* ------- Removing Arrows ↑  ------- */
+
+/* ------- Button ↓ -------- */
+
+.convert-btn {
+    padding: .56em 1.75em;
+    background-color: #ffffff;
+    color: #3D3D3D;
+    border: none;
+    border-radius: 5px;
+}
+
+.convert-btn:active{
+    background-color: #C4B5FD;
+}
+
+
+
+
+/* ------- Button ↑ -------- */
+
+.main-section {
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.main-section p {    color: #353535;
+}
+
+.color-accent {
+    color: #5A537B;
+
+}
