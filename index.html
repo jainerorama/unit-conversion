@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jainer Orama">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
@@ -11,7 +13,7 @@
     <body>
        
             <header class="container hero">
-                <h1 >Metric/Imperial Unit Conversion</h1>
+                <h1 >Metric/Imperial Unit <span class="spacing-text">Conversion</span></h1>
                 <input class="covert-number" id="convert-number" title="convert-number" type="number" value="20"></input>
                 <button class="convert-btn" id="convert-btn" type="button">Convert</button>
             </header>
@@ -20,17 +22,17 @@
                     
                     <div >
                         <h3 class="color-accent">Length (Meter/Feet)</h3>
-                        <p> <span class="number-value">20</span> meters = <span id="feet-conversion-result"> 65.616 </span> feet | <span class="number-value">20</span> feet = <span id="meters-conversion-result"> 6.096 </span> meters</p>
+                        <p> <span class="number-value">20</span> meters = <span id="feet-conversion-result"> 65.616 </span> feet <span class="vertical-line">|</span> <span class="number-value">20</span> feet = <span id="meters-conversion-result"> 6.096 </span> meters</p>
                     </div>
                         
                     <div id="volume-container">
                         <h3 class="color-accent">Volume (Liters/Gallons)</h3>
-                        <p><span class="number-value">20</span> liters = <span id="gallons-conversion-result"> 5.284 </span> gallons | <span class="number-value">20</span> gallons = <span id="liters-conversion-result"> 75.708 </span> liters</p>
+                        <p><span class="number-value">20</span> liters = <span id="gallons-conversion-result"> 5.284 </span> gallons <span class="vertical-line">|</span> <span class="number-value">20</span> gallons = <span id="liters-conversion-result"> 75.708 </span> liters</p>
                     </div>
 
                     <div id="mass-container">
                         <h3 class="color-accent">Mass (Kilograms/Pounds)</h3>
-                        <p><span class="number-value">20</span> kilos = <span id="pounds-conversion-result"> 44.092 </span> pounds | <span class="number-value">20</span> pounds = <span id="kilograms-conversion-result"> 9.072 </span> kilos</p>
+                        <p><span class="number-value">20</span> kilos = <span id="pounds-conversion-result"> 44.092 </span> pounds <span class="vertical-line">|</span> <span class="number-value">20</span> pounds = <span id="kilograms-conversion-result"> 9.072 </span> kilos</p>
                     </div>
 
                 </section>
