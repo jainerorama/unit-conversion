@@ -109,6 +109,10 @@ body {
 } 
 
 @media (max-width: 600px) {
+    .covert-number {
+        font-size: 3rem;
+    }
+
     .vertical-line {
         display: block;
     }
